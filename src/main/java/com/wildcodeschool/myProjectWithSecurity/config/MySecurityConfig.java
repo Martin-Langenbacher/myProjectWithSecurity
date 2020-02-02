@@ -43,6 +43,7 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter{
 		.withUser("Nick Fury").password(encoder.encode("nf")).roles("DIRECTOR");
 		
 		
+		
 		//.withUser("user")
 		//  .password(encoder.encode("password"))
 		//  .roles("")
